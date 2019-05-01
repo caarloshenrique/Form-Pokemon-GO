@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Form</title>
+</head>
+<body>
+  <!-- Navbar goes here -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><i class="material-icons">group_work</i>Pokémon Go</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+          <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+          <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+          <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Page Layout here -->
+  <div class="row">
+    <div class="col s2">
+      <!-- Grey navigation panel -->
+      <ul id="slide-out" class="side-nav fixed">
+        <li><div class="userView">
+          <div class="background">
+          </div>
+          <a href="#!user"><img class="circle" src="images/pokebola.png"></a>
+          <a href="#!name"><span class="white-text name">Pokémon Go</span></a>
+        </div></li>
+        <li><a class="white-text name" href="#!name"><i class="material-icons">perm_identity</i>Perfil do Jogador</a></li>
+        <li><a class="white-text name" href="#!"><i class="material-icons">stay_primary_landscape</i>Pokédex</a></li>
+        <li><a class="white-text name" href="#!"><i class="material-icons">shop</i>Loja Virtual</a></li>
+        <li><a class="white-text name" href="#!"><i class="material-icons">language</i>Zona do Safari</a></li>
+      </ul>
+    </div>
+    <div class="col s5">
+      <!-- Teal page content  -->
+      <div class="row">
+        <h5>Dados Pessoais do Treinador</h5>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="fnome" type="text" class="validate">
+              <label for="fnome">Primeiro Nome</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="unome" type="text" class="validate">
+              <label for="unome">Último Nome</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">phone</i>
+              <input id="phone-input" type="tel" class="validate">
+              <label for="phone-input">Telefone</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">stay_current_portrait</i>
+              <input id="cel-input" type="tel" class="validate">
+              <label for="cel-input">Celular</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">email</i>
+              <input id="email" type="email" class="validate">
+              <label for="email">E-mail</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">location_on</i>
+              <input id="endereco" type="text" class="validate">
+              <label for="endereco">Endereço</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" imput-field col s4">
+              <label for="data-nascimento">Data de Nascimento:</label>
+              <input id="data-nascimento" type="date">
+            </div>
+            <div class"imput-field col s4">
+              <label for="sexo">Sexo:</label>
+              <p></p>
+              <input name="sexo" type="radio" id="masculino" />
+              <label for="masculino">Maculino</label>
+
+              <input name="sexo" type="radio" id="feminino" />
+              <label for="feminino">Feminino</label>
+
+              <input name="sexo" type="radio" id="outro" />
+              <label for="outro">Outro</label>
+            </div>
+          </div>
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="adicional" class="materialize-textarea"></textarea>
+                  <label for="adicional">Dados Adicionais:</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="alt">
+      <div class="col s5">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <p>
+                <h5>Pokédex</h5>
+              </p>
+              <div class="col s8">
+                <label for="regiao">Escolha a sua Região Pokémon</label>
+                <select class="browser-default">
+                  <option value="" disabled selected>Escolha uma opção</option>
+                  <option value="1">Kanto</option>
+                  <option value="2">Johto</option>
+                  <option value="3">Hoenn</option>
+                  <option value="4">Orange island</option>
+                  <option value="5">Sinoh</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <form class="col s12">
+                <label for="tipo"><h6>Escolha seu tipo de pokémon preferido:</h6></label>
+                <div class="col s4">
+                  <p>
+                    <input type="checkbox" class="filled-in" id="agua" checked="checked" />
+                    <label for="agua">Água</label>
+                  </p>
+                  <p>
+                    <input type="checkbox" class="filled-in" id="planta" checked="checked" />
+                    <label for="planta">Planta</label>
+                  </p>
+                  <p>
+                    <input type="checkbox" class="filled-in" id="fogo" checked="checked" />
+                    <label for="fogo">Fogo</label>
+                  </p>
+                </div>
+                <div class="col s4">
+                  <p>
+                    <input type="checkbox" class="filled-in" id="psiquico" checked="checked" />
+                    <label for="psiquico">Psíquico</label>
+                  </p>
+                  <p>
+                    <input type="checkbox" class="filled-in" id="fantasma" checked="checked" />
+                    <label for="fantasma">Fantasma</label>
+                  </p>
+                  <p>
+                    <input type="checkbox" class="filled-in" id="eletrico" checked="checked" />
+                    <label for="eletrico">Elétrico</label>
+                  </p>
+                </div>
+                <div class="col s4">
+                  <p>
+                    <input type="checkbox" class="filled-in" id="lutador" checked="checked" />
+                    <label for="lutador">Lutador</label>
+                  </p>
+                  <p>
+                    <input type="checkbox" class="filled-in" id="terrestre" checked="checked" />
+                    <label for="terrestre">Terrestre</label>
+                  </p>
+                  <p>
+                    <input type="checkbox" class="filled-in" id="normal" checked="checked" />
+                    <label for="normal">Normal</label>
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input id="usuario" type="text" class="validate">
+                    <label for="usuario">Usuário</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="senha" type="password" class="validate">
+                    <label for="senha">Senha</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col s12">
+                    <label for="robo"><h6>Para nos certificarmos de que você não é um robô:</h6></label>
+                    <p></p>
+                    <div class="switch">
+                      <label>
+                        Robô
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        Treinador Pokémon
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <textarea id="comentario" class="materialize-textarea"></textarea>
+                        <label for="comentario">Deixe aqui o seu comentário sobre o formulário:</label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="row">
+                  <div class="col s6">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                      <i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                  <div class="col s6">
+                    <button class="btn waves-effect waves-light" type="clear" name="action">Limpar
+                      <i class="material-icons right">delete</i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="js/formatter.js"></script>
+<script type="text/javascript" src="js/jquery.formatter.js"></script>
+<script>
+$('#phone-input').formatter({
+  'pattern': '({{999}}) {{9999}}-{{9999}}',
+  'persistent': true
+});
+$('#cel-input').formatter({
+  'pattern': '({{999}}) {{99999}}-{{9999}}',
+  'persistent': true
+});
+</script>
+<script>
+$("#formValidate").validate({
+     rules: {
+         fnome: {
+             required: true,
+             minlength: 5
+         },
+         unome: {
+             required: true,
+             minlength: 5
+         },
+         email: {
+             required: true,
+             email:true
+         },
+         endereco: {
+             required: true,
+             minlength:15
+         },
+         password: {
+     required: true,
+     minlength: 8
+   },
+
+         regiao:"required",
+         adicional, comentario: {
+     required: true,
+     minlength: 15
+         },
+         sexo:"required",
+   tipo:"required",
+     },
+
+  });
+</script>
+</body>
+</html>
