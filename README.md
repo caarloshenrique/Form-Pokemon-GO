@@ -1,7 +1,7 @@
 # Form-Pokemon-GO
 🏀 Layout de formulário desenvolvido utilizando a ferramenta Materialize para a disciplina de Desenvolvimento Web 2
 
-<img src="images/form-pokemon.jpg”>
+<img src="/images/form-pokemon.png">
 
 ## Getting Started
 
