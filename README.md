@@ -16,3 +16,5 @@ $ npm install materialize-css@next
 ## Built With
 
 * [Materialize](https://materializecss.com/) - The web framework used
+
+<p align="center" style="margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;">Feito com :yellow_heart: por <strong> Carlos Henrique da Costa Silva </strong> </p>
