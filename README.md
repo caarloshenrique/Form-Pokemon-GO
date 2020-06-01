@@ -1,6 +1,8 @@
 # Form-Pokemon-GO
 🏀 Layout de formulário desenvolvido utilizando a ferramenta Materialize para a disciplina de Desenvolvimento Web 2
 
+<img src="/images/form-pokemon.png">
+
 ## :rocket: Tecnologias utilizadas 
 O projeto foi feito utilizando as seguintes tecnologias:
 
@@ -8,8 +10,6 @@ O projeto foi feito utilizando as seguintes tecnologias:
 - [CSS](https://www.w3schools.com/css/)
 - [Materialize](https://materializecss.com/)
 {...}
-
-<img src="/images/form-pokemon.png">
 
 ## :page_facing_up: Licença 
 Este projeto é desenvolvido sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para saber mais detalhes.
